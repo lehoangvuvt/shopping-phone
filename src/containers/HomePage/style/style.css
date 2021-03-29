@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body,html{
+    height: 1000px;
+    background: white !important;
+    overflow: visible !important;
+ }
+.home-container{
+    height: 1300px;
+    overflow: visible !important;
+}
+.phone-manufacturer-container{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top:20%;
+    display: flex;
+    margin-top:20px;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.phone-manufacturer-title{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height:15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.phone-manufacturer{
+    width: 90%;
+    height:85%;
+    margin-top:-5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.phone-manufacturer>div{
+    cursor: pointer;
+    width:18%;
+    padding-top:15%;
+    display:flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    background-position: top !important;
+    background-size:80% 70% !important;
+    background-repeat: no-repeat !important;
+}
+.phone-manufacturer>div:hover{
+    background-size: 83% 73% !important;
+    transition: 0.5s all;
+}
+.phone-manufacturer>div>h1{
+    font-family:'Alata',sans-serif;
+    font-size:18px;
+    font-weight: 500;
+    margin-top:0px;
+}

@@ -1,0 +1,1 @@
+export const connectionString = 'http://localhost:8081/api';
